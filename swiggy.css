@@ -282,3 +282,18 @@ h2.tittle{
     margin-top: 20px;
 
 }
+@media screen and (max-width: 500px) {
+   .cart{
+    right: -200%;
+   }
+   .cart-active{
+    right: 0;
+    transition: 1s;
+}
+  }
+  @media screen and (max-width: 400px) {
+    .cart{
+     width: 100%;
+    }
+
+   }
